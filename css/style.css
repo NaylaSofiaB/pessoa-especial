@@ -3,11 +3,28 @@ body {
 }
 
 h1 {
-  color: rgb(180, 155, 155); /*Pode escolher outra cor se quiser*/
+  color: rgb(0, 0, 0); /*Pode escolher outra cor se quiser*/
   text-align: center;
 }
 
 p {
   font-family: verdana;
   font-size: 20px;
+}
+
+.estrela{
+font-size:40px;
+animation: brilho 1s infinite alternate;
+}
+
+@keyframes brilho{
+0%{
+transform: scale(1);
+opacity:0.6;
+}
+
+100%{
+transform: scale(1.5);
+opacity:1;
+}
 }
